@@ -5,7 +5,7 @@
 <br>
 
 <h1 align="center">
-  Desafio 1: testes unitários
+  Desafio 1: transferências com a FinAPI
 </h1>
 
 <br>
@@ -18,7 +18,7 @@
 </p>
 
 ## :computer: Descrição:
-Neste projeto foram desenvolvidos os testes unitário da FinAPI, uma abstração de uma aplicação financeira.
+Neste projeto foi desenvolvida a transferência de valores entre usuários da FinAPI, uma abstração de uma aplicação financeira.
 
 ## :hammer_and_wrench: Funcionalidades:
 - Criar um usuário com `name`, `email` e `password`;
@@ -27,10 +27,15 @@ Neste projeto foram desenvolvidos os testes unitário da FinAPI, uma abstração
 - Apresentar o saldo da conta de um usuário por meio de um `token`;
 - Depositar um determinado valor em uma conta usando um `token`;
 - Sacar um determinado valor em uma conta através de um `token`;
-- Listar informações de uma determinada operação realizada utilizando um `token`.
+- Listar informações de uma determinada operação realizada utilizando um `token`;
+- Realizar tranferências de valores entre usuários.
 
 ## :memo: Execução do projeto:
+- Criação/execução do container da base de dados:
+  > docker compose --build -d
+- Aplicação das migrations:
+  > yarn typeorm migration:run
 - Instalação das dependências do projeto:
   > yarn
-- Execução dos testes:
-  > yarn test
+- Execução daaplicação:
+  > yarn dev
