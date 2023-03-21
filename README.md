@@ -28,7 +28,7 @@ Neste projeto foi desenvolvida a transferência de valores entre usuários da Fi
 - Depositar um determinado valor em uma conta usando um `token`;
 - Sacar um determinado valor em uma conta através de um `token`;
 - Listar informações de uma determinada operação realizada utilizando um `token`;
-- Realizar tranferências de valores entre usuários.
+- Realizar transferências de valores entre usuários.
 
 ## :memo: Execução do projeto:
 - Criação/execução do container da base de dados:
