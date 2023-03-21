@@ -37,5 +37,5 @@ Neste projeto foi desenvolvida a transferência de valores entre usuários da Fi
   > yarn typeorm migration:run
 - Instalação das dependências do projeto:
   > yarn
-- Execução daaplicação:
+- Execução da aplicação:
   > yarn dev
